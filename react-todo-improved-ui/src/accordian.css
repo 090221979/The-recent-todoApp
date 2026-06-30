@@ -1,0 +1,92 @@
+.container {
+  padding: 1em 0;
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.todo-container
+{
+  border:1px solid #55a;
+  padding:1em;
+  border-radius: 14px;
+  box-shadow: 5px 5px 9px rgba(0,0,0,0.4);
+}
+
+.container input {
+  border: solid 2px silver;
+  border-radius: 7px;
+  margin-right: 5px;
+}
+
+.container input::placeholder {
+  color: grey;
+}
+
+button {
+  padding: 0.3em 1em;
+  background: #99e;
+  border: none;
+  margin-left: 10px;
+  font-family: monospace;
+  font-weight: 600;
+  color: #444;
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+  transition: transform 0.4s ease;
+}
+
+.btn1 {
+  background: seagreen;
+  color: #fff;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+h2,
+h3 {
+  color: #54e;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: system-ui;
+  font-size: 2.5rem;
+}
+li {
+  display: flex;
+  background: linear-gradient(to left, white, silver, white);
+  padding: 0.4em;
+  margin: 3px 0 0 3px;
+  transition: background 0.35s ease-in;
+}
+
+li:hover {
+  background: gainsboro;
+}
+li button {
+  margin-left: 10px;
+}
+
+.txt-area {
+  flex: 2;
+  text-align: center;
+  font-family: tahoma;
+}
+
+.del-btn {
+  background: none;
+  outline: red solid 2px;
+  color: red;
+}
+
+.overwrite {
+  text-decoration: line-through 2px wavy red;
+}
+
+.count {
+  font-family: 'tahoma';
+  font-size: 1.2rem;
+}
