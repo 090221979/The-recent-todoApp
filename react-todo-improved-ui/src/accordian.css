@@ -8,6 +8,8 @@ body
   padding: 1em 0;
   width: 100%;
   margin:auto;
+  display:flex;
+  justify-content:center;
 }
 
 .todo-container
