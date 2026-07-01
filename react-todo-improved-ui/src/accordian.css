@@ -8,6 +8,7 @@ body
   padding: 1em 0;
   width: 95vw;
   margin:10px auto;
+  position:absolute;
 }
 
 .todo-container
@@ -19,6 +20,7 @@ body
   width:70vw;
   margin:20px auto;
   background:linear-gradient(to left, cornflowerblue,powderblue);
+  position:relative;
 }
 
 .container input {
