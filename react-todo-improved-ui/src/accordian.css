@@ -13,6 +13,8 @@
   padding:1em;
   border-radius: 14px;
   box-shadow: 5px 5px 9px rgba(0,0,0,0.4);
+  width:70vw;
+  margin:20px auto;
 }
 
 .container input {
