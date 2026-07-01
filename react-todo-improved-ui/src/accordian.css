@@ -21,7 +21,7 @@ body
   box-shadow: 5px 5px 9px rgba(0,0,0,0.4);
   width:70vw;
   margin:20px auto;
-
+  background:linear-gradient(to left, cornflowerblue,powderblue);
 }
 
 .container input {
