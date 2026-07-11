@@ -59,6 +59,7 @@ const App = () => {
       <ul>
         {list.map((item, index) => (
           <TodoItem
+            key={item.id}
             item={item}
             index={index}
             todo={todo}
@@ -66,7 +67,7 @@ const App = () => {
             editId={editId}
             setEditId={setEditId}
             editTxt={editTxt}
-            setEditTxt={setEditId}
+            setEditTxt={setEditTxt}
             dragItem={dragItem}
             dragItem2={dragItem2}
             dragNdrop={dragNdrop}
